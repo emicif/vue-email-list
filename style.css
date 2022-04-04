@@ -3,3 +3,21 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+
+h1 {
+  margin: 20px;
+
+
+}
+
+.list {
+  margin: 45px;
+
+  
+}
+
+.list-items {
+  padding: 10px;
+  
+}

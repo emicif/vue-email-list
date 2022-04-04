@@ -11,17 +11,18 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-    <title>Document</title>
+    <title>Vue Email List</title>
 </head>
 <body>
     <div id="root">
-
-        <ul>
-            <li v-for= "(items, index) in emailRandom">
-                
+        <h1>Vue Email List</h1>
+        <ol class="list">
+            <li 
+            v-for= "(items, index) in emailRandom"
+            class="list-items">
                 {{emailRandom[index]}}
             </li>
-        </ul>
+        </ol>
         
     </div>
     
