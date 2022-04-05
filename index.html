@@ -16,6 +16,7 @@
 <body>
     <div id="root">
         <h1>Vue Email List</h1>
+        <div v-if="emailRandom.length >= 10">
         <ol class="list">
             <li 
             v-for= "(items, index) in emailRandom"
@@ -23,7 +24,7 @@
                 {{emailRandom[index]}}
             </li>
         </ol>
-        
+    </div>
     </div>
     
 
